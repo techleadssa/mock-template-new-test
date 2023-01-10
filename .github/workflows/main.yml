@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: techleadssa/hello-world-javascript-action
+        uses: techleadssa/hello-world-javascript-action@v1.1
         with:
           who-to-greet: 'Raimundo'
       # Use the output from the `hello` step
